@@ -1,0 +1,38 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
+	font-size: 11px;
+	color: #262c26;
+}
+
+header,
+main,
+footer {
+	border: 2px solid green;
+	width: 690px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+
+header {
+	height: 96px;
+	padding-top: 40px;
+}
+
+main {
+	height: 739px;
+}
+
+footer {
+	height: 154px;
+	color: #333;
+	margin-bottom: 0;
+}
