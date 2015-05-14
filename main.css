@@ -6,11 +6,15 @@ html {
   box-sizing: inherit;
 }
 
+/* Body */
+
 body {
 	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
-	font-size: 11px;
+	font-size: 14px;
 	color: #262c26;
 }
+
+/* Page Breakdown (header, main, footer) */
 
 header,
 main,
@@ -23,16 +27,64 @@ footer {
 
 
 header {
+	border: 0;
 	height: 96px;
 	padding-top: 40px;
+	color: #333;
 }
 
 main {
+	clear: both;
 	height: 739px;
 }
 
 footer {
+	/* clear: both */
 	height: 154px;
-	color: #333;
 	margin-bottom: 0;
+	color: #333;
+}
+
+/* Header */
+a#logo-link {
+	display: inline-block;
+	float: left;
+	background: url(images/logo.png) 0 0 no-repeat;
+	background-size: 60%;
+	margin-top: 20px;
+	height: 55px;
+	width: 194px;
+}
+
+#authenticate-tabs {
+	float: right;
+	height: 55px;
+	width: 135px;
+}
+
+#authenticate-tabs a {
+	text-decoration: none;
+}
+
+#authenticate-tabs a:hover,
+#authenticate-tabs a:visited,
+#authenticate-tabs a:link,
+#authenticate-tabs a:active {
+	color: #333;
+}
+
+#signup,
+#login {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 50%;
+	margin-top: 40px;
+	letter-spacing: 0.05em;
+}
+
+#signup {
+	font-weight: 600;
+	border-right: solid 1px lightgray;
+	padding-right: 10px;
 }
