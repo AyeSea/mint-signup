@@ -22,6 +22,41 @@
 		</header>
 
 		<main>
+			<h1>Create a new account</h1>
+
+			<div id="signup-form">
+				<form action="#" method="post">
+					<label for="email">Your Email</label>
+					<input type="email" name="email" id="email">
+
+					<label for="email-confirm">Confirm Email</label>
+					<input type="email" name="email-confirm" id="email-confirm">
+
+					<label for="country">Country</label>
+					<select name="country" id="country">
+						<option value="United States">United States</option>
+						<option value="Canada">Canada</option>
+					</select>
+
+					<label for="zipcode">Zip Code</label>
+					<input type="text" name="zipcode" id="zipcode">
+
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password">
+
+					<label for="password-confirm">Confirm Password</label>
+					<input type="password" name="confirm-password" id="confirm-password">
+
+					<fieldset class="form-section">
+						<input type="checkbox" name="remember-me" id="remember-me" value="true">
+						<label for="remember-me">Yes, I agree to the Mint <a href="https://www.mint.com/terms">Terms of Use</a>.</label>
+					</fieldset>
+
+					<button id="submit-btn" type="submit">Sign up</button>
+
+				</form>
+			</div>
+
 		</main>
 
 		<footer>

@@ -11,7 +11,7 @@ html {
 body {
 	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
 	font-size: 14px;
-	color: #262c26;
+	color: #333;
 }
 
 /* Page Breakdown (header, main, footer) */
@@ -30,7 +30,6 @@ header {
 	border: 0;
 	height: 96px;
 	padding-top: 40px;
-	color: #333;
 }
 
 main {
@@ -87,4 +86,79 @@ a#logo-link {
 	font-weight: 600;
 	border-right: solid 1px lightgray;
 	padding-right: 10px;
+}
+
+/* Body */
+main h1 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	border: 1px solid orange;
+	margin-left: 7%;
+	margin-top: 37.5px;
+}
+
+#signup-form {
+	display: inline-block;
+	border: 2px solid green;
+	width: 55%;
+	margin-left: 7%;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input, 
+select {
+	display: block	border-color: rgb(169, 169, 169);;
+	width: 266px;
+	height: 30px;
+	padding: 2px;
+	border: solid 1px #ccc;
+	margin-bottom: 30px;
+}
+
+input {
+	border-radius: 5px;
+}
+
+#zipcode {
+	width: 74px;
+}
+
+#remember-me {
+	display: inline;
+	height: 13px;
+	width: 13px;
+}
+
+#signup-form label:last-child {
+	display: inline;
+	font-size: 13px;
+	color: #666;
+	font-weight: normal;
+}
+
+#signup-form label:last-child a {
+	font-size: 14px;
+	color: #006ea4;
+	text-decoration: none;
+}
+
+#signup-form label:last-child a:hover {
+	text-decoration: underline;
+}
+
+#submit-btn {
+	font-size: 12px;
+	color: #fff;
+	background: #fbb450;
+	background: linear-gradient(#fbb450, #f89406);
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 7.5px 12.5px;
 }
