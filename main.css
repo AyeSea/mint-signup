@@ -45,6 +45,7 @@ footer {
 }
 
 /* Header */
+
 a#logo-link {
 	display: inline-block;
 	float: left;
@@ -88,21 +89,45 @@ a#logo-link {
 	padding-right: 10px;
 }
 
-/* Body */
+/* Columns */
+
+.col-1,
+.col-2 {
+	border: 1px dashed orange;
+	display: inline-block;
+}
+
+.col-1 {
+	border-right: solid 1px lightgray;
+	width: 63%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
+
+.col-2 {
+	vertical-align: top;
+	width: 31.5%;
+	margin-right: 1.5%;
+}
+
+/* Main */
+
 main h1 {
 	font-size: 28px;
 	font-weight: bold;
 	margin-bottom: 40px;
-	border: 1px solid orange;
+	border-right: 1px solid orange;
 	margin-left: 7%;
 	margin-top: 37.5px;
 }
 
+/* Main - Signup Form */
+
 #signup-form {
 	display: inline-block;
 	border: 2px solid green;
-	width: 55%;
-	margin-left: 7%;
+	width: 75%;
+	margin-left: 10%;
 }
 
 label {
@@ -161,4 +186,37 @@ input {
 	text-align: center;
 	vertical-align: middle;
 	padding: 7.5px 12.5px;
+}
+
+/* Main - Quick Facts */
+
+#quick-facts {
+	border: 1px solid green;
+	display: inline-block;
+	width: 90%;
+	min-height: 100px;
+	background: #f5f5f5;
+	margin-left: 10px;
+	color: #666;
+	padding-bottom: 30px;
+}
+
+#quick-facts h3 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#quick-facts li {
+	list-style-type: disc;
+	font-size: 11px;
+	margin-left: 37.5px;
+	padding-right: 18.5px;
+	line-height: 1.4em;
+}
+
+#quick-facts li a {
+	color: #666;
 }
