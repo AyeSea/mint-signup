@@ -11,7 +11,7 @@ html {
 body {
 	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
 	font-size: 14px;
-	color: #333;
+	color: #666;
 }
 
 /* Page Breakdown (header, main, footer) */
@@ -219,4 +219,69 @@ input {
 
 #quick-facts li a {
 	color: #666;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	font-size: 11px;
+}
+
+nav#footer-links {
+	border: 1px solid red;
+	margin-top: 22.5px;
+	margin-bottom: 22.5px;
+}
+
+#footer-links a {
+	color: #666;
+	text-decoration: none;
+	margin-right: 18px;
+}
+
+#footer-links a:hover {
+	text-decoration: underline;
+}
+
+#footer-links a:link,
+#footer-links a:visited,
+#footer-links a:active {
+	color: #666;
+}
+
+#verisign-logo,
+#truste-logo {
+	display: inline-block;
+	background: url('https://images.mint.com/web-client/images/security-sacbbe957cd.png') no-repeat;
+	margin: 0 20px;
+}
+
+#verisign-logo {
+	display: inline-block;
+	border: 1px dashed purple;
+	height: 58px;
+	width: 124px;
+	background-position: 0 -178px;
+}
+
+#truste-logo {
+	display: inline-block;
+	border: 1px dashed purple;
+	height: 52px;
+	width: 160px;
+	background-position: 0 -126px;
+}
+
+.copyright {
+	display: block;
+	margin-top: 7.5px;
+	color: #999;
+}
+
+
+#copyright-codes {
+	margin-left: 15px;
+	padding-left: 10px;
+	border-left: 1px solid #ccc;
 }
