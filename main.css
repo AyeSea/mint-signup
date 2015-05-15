@@ -11,7 +11,7 @@ html {
 body {
 	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
 	font-size: 14px;
-	color: #666;
+	color: #333;
 }
 
 /* Page Breakdown (header, main, footer) */
@@ -19,7 +19,6 @@ body {
 header,
 main,
 footer {
-	border: 2px solid green;
 	width: 690px;
 	margin: 0 auto;
 	margin-bottom: 15px;
@@ -93,7 +92,6 @@ a#logo-link {
 
 .col-1,
 .col-2 {
-	border: 1px dashed orange;
 	display: inline-block;
 }
 
@@ -112,11 +110,15 @@ a#logo-link {
 
 /* Main */
 
+main {
+	border: 1px solid #f1f1f1;
+	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
 main h1 {
 	font-size: 28px;
 	font-weight: bold;
 	margin-bottom: 40px;
-	border-right: 1px solid orange;
 	margin-left: 7%;
 	margin-top: 37.5px;
 }
@@ -125,7 +127,6 @@ main h1 {
 
 #signup-form {
 	display: inline-block;
-	border: 2px solid green;
 	width: 75%;
 	margin-left: 10%;
 }
@@ -138,7 +139,8 @@ label {
 
 input, 
 select {
-	display: block	border-color: rgb(169, 169, 169);;
+	display: block;
+	border-color: rgb(169, 169, 169);
 	width: 266px;
 	height: 30px;
 	padding: 2px;
@@ -191,7 +193,6 @@ input {
 /* Main - Quick Facts */
 
 #quick-facts {
-	border: 1px solid green;
 	display: inline-block;
 	width: 90%;
 	min-height: 100px;
@@ -229,7 +230,6 @@ footer {
 }
 
 nav#footer-links {
-	border: 1px solid red;
 	margin-top: 22.5px;
 	margin-bottom: 22.5px;
 }
@@ -258,16 +258,12 @@ nav#footer-links {
 }
 
 #verisign-logo {
-	display: inline-block;
-	border: 1px dashed purple;
 	height: 58px;
 	width: 124px;
 	background-position: 0 -178px;
 }
 
 #truste-logo {
-	display: inline-block;
-	border: 1px dashed purple;
 	height: 52px;
 	width: 160px;
 	background-position: 0 -126px;
@@ -278,7 +274,6 @@ nav#footer-links {
 	margin-top: 7.5px;
 	color: #999;
 }
-
 
 #copyright-codes {
 	margin-left: 15px;
